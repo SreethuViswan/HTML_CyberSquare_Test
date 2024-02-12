@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .navbar{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:white;
+            padding: 15px;
+           
+        }
+
+
+.links{
+    /* list-style-type: none; */
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.links li{
+margin-right: 100px;
+list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#home{
+   color:green ;
+}
+#about{
+    color:brown ; 
+}
+#course{
+    color:red;
+}
+.container{
+    background-color: rgb(46, 169, 236);
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+ .courses{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+   
+}
+
+.course{
+    background-color: white;
+    width: 700px;
+    height: 160px;
+    display: flex;
+    
+}
+.course p,h3,span{
+    font-size: 14px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 8px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+ }
+
+
+
+ .footerpara{
+    color: white;
+    font-size: 15px;
+   
+ }
+.footertable{
+    font-size: 15px;
+  
+    padding-left:100px;
+  
+  
+}
+
+.left{
+padding-left: 100px;
+padding-top: 20px;
+}
+
+.footertable td{
+    color: white;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <img src="images/cslogo.jpeg" width="25%"  height="30%" alt="">
+       <ul class="links" >
+        <li >
+            <a id="home" href="home.html">HOME</a>
+        </li>
+        <li>
+            <a id="about" href="about.html" target="_blank">ABOUT</a>
+        </li>
+        <li>
+            <a id="course" href="courses.html" target="_blank">COURSE</a>
+        </li>
+        
+       </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2 style="color:white ;font-size:25px;">Our Courses</h2>
+
+      <div class="courses">
+            <div class="course">
+                <img src="images/python.jpeg" height="145px" width="460px" alt="">
+                <div class="details">
+                    <h3>Python</h3>
+                    <p >Django is an extremely popular and fully featured server-side web framework, written in Python. Django allows you to quickly create web apps.</p>
+                    <span><b>Price:</b>40000/-</span>
+
+                    </div>
+                </div>
+                <div class="course">
+                    <img src="images/angular.png" height="158px" width="350px" alt="">
+                    <div class="details">
+                        <h3>Angular</h3>
+                       <p>Angular (formerly called Angular JS) is a typescript based web application framework that supports full-stack development for building all types of web applications.</p>
+                        <span><b>Price:</b>40000/-</span>
+    
+                        </div>
+                    </div>
+               
+                    <div class="course">
+                        <img src="images/flutter.png" height="145px" width="260px" alt="">
+                        <div class="details">
+                            <h3>Flutter</h3>
+                            <p>Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase.</p>
+                            <span><b>Price:</b>40000/-</span>
+        
+                            </div>
+                        </div>
+    
+
+       </div>     
+    </div>
+    </main>
+
+  
+        <footer>
+            <div class="footer">
+                <div class="left">
+                <div><img src="images/cslogo.jpeg" width="250px" height="50px" alt="CyberSquare Logo"></div>
+                <div class="footerpara">Cyber square is an innovative online platform that teaches<br>
+                    kids to learn coding and thereby improving the 21st century<br>
+                    skills. It is also an excellent way to teach mathematical and<br>
+                    science concepts in a different way and have problem-solving<br>
+                    skills, logic and patience.</div>
+                </div>
+                
+                <div class="footertable">
+                    <table bgcolor="black" width="200px" cellpadding="10" cellspacing="10">
+                        <tr>
+                           
+                            <td>Address </td>
+                            <td> Contact Us</td>
+                        </tr>
+                        <tr>
+                           <td><b>Head Office -UK</b>
+                                <br>
+                                29,The Sphere, 1 Hallsville,
+                                <br>
+                                London E16 1BE
+                            </td>
+                            <td>+44-07448241977 (UK)</td>
+                        </tr>
+                        <tr>
+                            <td>mail:contact@cybersquare.org
+                            </td>
+                            <td>+971-508881947 (UAE)</td>
+                
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>    
+        </footer>
+</body>
+</html>

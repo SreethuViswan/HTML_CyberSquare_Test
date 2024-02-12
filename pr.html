@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav .search-container {
+  float: right;
+  padding-top: 25px;
+}
+
+.leftnav{
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color:white;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color:white;
+  color: white;
+}
+
+.main{
+  
+    width:100%;
+
+
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color:white;
+}
+
+.flex-container > div {
+  background-color:white;
+
+  margin: 10px;
+  text-align: center;
+ 
+}
+.grid-container {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+            gap: 10px;
+            background-color: #2196F3;
+            padding: 10px;
+          }
+          
+          .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+          }
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <img src="images/horozon3.png" alt="" height="30px" >
+  <img src="images/logo.png" alt="" height="100px" width="200px">
+  <div class="search-container">
+    <form>
+      <input type="text" placeholder="Search.." name="search">
+      <img src="images/search.png" alt="" height="30px">
+      <img src="images/videologo.png" alt="" height="30px">
+      <img src="images/3dot.jpg" alt="" height="30px">
+      <img src="images/bell.jpg" alt="" height="30px">
+      <img src="images/contactlogo.png" alt="" height="30px">
+      
+    </form>
+  </div>
+
+  <h2>Recommended</h2> 
+
+  <div class="flex-container">
+    <div style="flex-grow: 2"><ul>
+      <li><a href="#home"><img src="images/home.jpg" alt="" width="30px">Home</a></li>
+      <li><a href="#"><img src="images/trending.png" alt="" width="30px">Trending</a></li>
+      <li><a href="#"><img src="images/subscription.png" alt="" width="30px">Subcriptions</a></li>
+      
+    </ul>
+  
+  <br>
+  
+  
+    
+  
+  
+  
+  <ul>
+      <li><a href="#"><img src="images/library.png" alt="" width="30px">Library</a></li>
+      <li><a href="#"><img src="images/history.png" alt="" width="30px">History</a></li>
+      <li><a href="#"><img src="images/yourvideo.png" alt="" width="30px">Your Videos</a></li>
+      <li><a href="#"><img src="images/watchlater.png" alt="" width="30px">Watch Later</a></li>
+      <li><a href="#"><img src="images/likesd.png" alt="" width="30px">Liked Videos</a></li>
+    </ul>
+  </div>
+    <div style="flex-grow: 8">
+        <div class="grid-container">
+           
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>  
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div><iframe width="300" height="315" src="https://www.youtube.com/embed/XnSasPR2KJI?si=IcisQIdqB7BV0O2C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>  
+          </div>
+   
+  </div>
+
+</body>
+</html

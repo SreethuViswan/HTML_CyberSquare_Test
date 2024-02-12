@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .navbar{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:white;
+            padding: 15px;
+           
+        }
+
+
+.links{
+    /* list-style-type: none; */
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.links li{
+margin-right: 100px;
+list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#home{
+   color:green ;
+}
+#about{
+    color:brown ; 
+}
+#course{
+    color:red;
+}
+.container{
+    background-color: rgb(46, 169, 236);
+    padding: 0 130px;
+}
+
+.why{
+    padding: 5px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.why>p{
+    font-size: 15px;
+    line-height: 1.9rem;
+}
+
+.choose{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.reasons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.reason{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.card{
+    width: 300px;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card>:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white; 
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+}
+
+.card>:nth-child(2){
+    font-family: sans-serif;
+    font-weight:100px;
+    color: rgb(41, 51, 69);
+}
+
+.card> p{
+    font-size: 13px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+ }
+
+
+
+ .footerpara{
+    color: white;
+    font-size: 15px;
+   
+ }
+.footertable{
+    font-size: 15px;
+  
+    padding-left:100px;
+  
+  
+}
+
+.left{
+padding-left: 100px;
+padding-top: 20px;
+}
+
+.footertable td{
+    color: white;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+        <img src="images/cslogo.jpeg" width="25%"  height="30%" alt="">
+       <ul class="links" >
+        <li >
+            <a id="home" href="home.html">HOME</a>
+        </li>
+        <li>
+            <a id="about" href="about.html" target="_blank">ABOUT</a>
+        </li>
+        <li>
+            <a id="course" href="courses.html" target="_blank">COURSE</a>
+        </li>
+        
+       </ul>
+    </nav>
+    </header>
+    <main>
+        
+            <div class="container">
+                <div class="why">
+                  <h1 style="font-size: 30px;" >Why CyberSquare?</h1>
+                  <p align="justify" style="font-size: 18px;">
+                    Technology is changing the way we learn, work and live. Current jobs
+                    become obsolete within five to ten years of implementing automation,
+                    and it is projected that, in the near future, about 50% of the
+                    workforce will be made up of jobs which don’t yet exist. Thus,
+                    understanding the language of machines becomes a priority, and
+                    learning to code can provide you with vast opportunities in an
+                    ever-changing digital world. Cyber Square Pro is an online learning
+                    platform and resource hub for professionals looking to learn
+                    cutting-edge digital skills, whether they’re coding novices or
+                    programming pros. We offer courses teaching a wide range of digital
+                    skills in areas such as: software development, design, data,
+                    marketing, and product management. At Cyber Square, we are in the
+                    business of setting you up for future success!
+                  </p>
+                </div>
+                <div class="choose">
+                  <h1 style="color: white ; font-size:30px;">Why Choose Us?</h1>
+          
+                  <div class="reasons"> 
+                    <div class="reason">
+                      <div class="card">
+                        <i class="fa fa-bullhorn" style="background-color: rgb(6, 229, 6)"></i>
+                        <h3>Full-Spectrum Digital Skills</h3>
+                        <p align="center">Premium skills training across the entire digital product lifecycle: data, design, development, marketing, and product management.</p>
+                      </div>
+                      <div class="card">
+                        <i class="fa fa-heart" style="background-color: red"></i>
+                          <h3>Designed By Industry Experts</h3>
+                          <p align="center">Agile curriculum developed and updated with industry leaders from the most innovative companies.</p>
+                      </div>
+                      <div class="card">
+                        <i class="fa fa-bookmark" style="background-color: blue"></i>
+                        <h3>Available Online Or In-Person</h3>
+                        <p align="center">Cutting-edge, instructor-led digital skills training, online or at state-of-the-art campuses around the world.</p>
+                      </div>
+                    </div>
+                    <div class="reason">
+                      <div class="card">
+                        <i class="fa fa-line-chart" style="background-color: orange"></i>
+                        <h3>Hands On Coding</h3>
+                        <p align="center">Over 75% of your time at cybersquare will be focused on building software. After all, that's why you are here, right?</p>
+                      </div>
+                      <div class="card">
+                        <i class="fa fa-handshake-o" style="background-color: rgb(168, 35, 28)"></i>
+                        <h3>Community Of Developers</h3>
+                        <p align="center">You'll have access to industry mentors from a diverse set of backgrounds and experiences. That means you'll get both in-person and online support with experts, who spend their day jobs as developers.</p>
+                      </div>
+                      <div class="card">
+                        <i class="fa fa-phone" style="background-color: rgb(57, 84, 221)"></i>
+                        <h3>Learn From Home</h3>
+                        <p align="center">Since 2013, we’ve been offering outcomes driven education to over 1,500 career-minded students and successfully delivered immersive remote education to cohorts around the country.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+            <div><img src="images/cslogo.jpeg" width="250px" height="50px" alt="CyberSquare Logo"></div>
+            <div class="footerpara">Cyber square is an innovative online platform that teaches<br>
+                kids to learn coding and thereby improving the 21st century<br>
+                skills. It is also an excellent way to teach mathematical and<br>
+                science concepts in a different way and have problem-solving<br>
+                skills, logic and patience.</div>
+            </div>
+            
+            <div class="footertable">
+                <table bgcolor="black" width="200px" cellpadding="10" cellspacing="10">
+                    <tr>
+                       
+                        <td>Address </td>
+                        <td> Contact Us</td>
+                    </tr>
+                    <tr>
+                       <td><b>Head Office -UK</b>
+                            <br>
+                            29,The Sphere, 1 Hallsville,
+                            <br>
+                            London E16 1BE
+                        </td>
+                        <td>+44-07448241977 (UK)</td>
+                    </tr>
+                    <tr>
+                        <td>mail:contact@cybersquare.org
+                        </td>
+                        <td>+971-508881947 (UAE)</td>
+            
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home Document</title>
+    <style>
+.navbar{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:white;
+          
+           
+        }
+
+
+.links{
+    /* list-style-type: none; */
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+.links li{
+margin-right: 100px;
+list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+#home{
+   color:green ;
+}
+#about{
+    color:brown ; 
+}
+#course{
+    color:red;
+}
+.container{
+    background-color: rgb(46, 169, 236);
+    width:100%;
+    
+}
+.para{
+    width:50%;
+    color:white;
+    padding-top: 25px;
+    padding-left: 40px;
+
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.inside{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.image{
+    padding-top:50px;
+    padding-bottom: 20px;
+    
+}
+
+.pics{
+    background-color:white ;
+    display: flex;
+    gap: 1px;
+  
+    justify-content:space-around ;
+   
+}
+
+.img{
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+.benifit{
+    
+    padding-top: 100px;
+    padding-left:100px ;
+    padding-right:100px ;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.benifits{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.box{
+    display: flex;
+    width: 150px;
+    height: 130px;
+
+    
+    border-radius: 8px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1.3s;
+  
+}
+
+.container2{
+    background-color: antiquewhite; 
+    padding-bottom:20px ;
+    padding-top:50px;
+}
+
+.courses{
+   
+    border: 5px black;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 9px;
+    background-color: white;
+
+}
+ #visit{
+    padding-top: 20px;
+    font-size: 15px;
+
+ }
+
+ .footer{
+    background-color: black;
+    display: flex;
+ }
+
+
+
+ .footerpara{
+    color: white;
+    font-size: 15px;
+   
+ }
+.footertable{
+    font-size: 15px;
+  
+    padding-left:100px;
+  
+  
+}
+
+.left{
+padding-left: 100px;
+padding-top: 20px;
+}
+
+.footertable td{
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+    <img src="images/cslogo.jpeg" width="25%"  height="30%" alt="">
+   <ul class="links" >
+    <li >
+        <a id="home" href="home.html">HOME</a>
+    </li>
+    <li>
+        <a id="about" href="about.html" target="_blank">ABOUT</a>
+    </li>
+    <li>
+        <a id="course" href="courses.html" target="_blank">COURSE</a>
+    </li>
+    
+   </ul>
+</nav>
+</header>
+<main>
+<div class="container">
+    <h1 align="center" style="color:white; padding-top:50px ; font-size :35px;">Welcome to CyberSquare</h1>
+    <br>
+    <div class="inside">
+    <div class="para">
+        <p>
+            Cyber Square is the best online coding platform for kids that offers various<br>
+            online coding courses which will make kids future-ready.It helps kids to expose<br>
+            their creativity and acquire 21st-century skills.Technology is changing the way<br>
+            we learn, work, and live.Many of the current jobs will become obsolete in another<br>
+            5-10 years with automation and 50% of the new jobs will be those which don’t <br>
+            exist today.Understanding the language of the machines will be a standard that<br>
+            is as important as having English literacy or even a native-tongue litracy.<br>
+            <br>
+            The future offers a humongous number of opportunities for the people who know<br>
+            how to code.CyberSquare is a unique platform for students and teachers to get <br>
+            training on the latest technologies like Artificial Intelligence, Robotics,IoT,<br>
+            etc.Cyber Square curriculum and platform will help kids to develop theirown <br>
+            projects using the latest technologies through schools, we are providing coding<br>
+            for schools.
+        </p>
+
+    </div>
+    <div class="image">
+        <img src="images/cspic.jpeg" width="350px">
+    </div>
+</div> 
+
+<div class="pics">
+    <img class="img" src="images/cs1.jpeg">
+    <img class="img" src="images/cs2.jpeg">
+    <img class="img" src="images/cs3.jpeg">
+</div>
+
+<div class="benifit">
+    <h2 style="color:rgb(9, 9, 75) ;font-size:20px;">Benifits for Students</h2>
+    <div class="benifits">
+        <div class="box" style="color:brown;">Critical Thinking</div>
+        <div class="box" style="color: orangered;">Problem Solving</div>
+        <div class="box" style="color:green;">Coding</div>
+        <div class="box" style="color:blue;">Communication</div>
+        <div class="box" style="color: magenta;">Logical Reasoning</div>
+    </div>
+
+    <div class="container2">
+        <h2 style="color:rgb(9, 9, 75) ;font-size:20px;">Courses We Provide</h2>
+
+        <center>
+            <div class="courses">
+                <table class="tablecourse" height="200px" width="600px">
+                    <tr align="center">
+                        <th>Courses</th>
+                        <th>Duration</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr align="center">
+                        <td>Python-Django</td>
+                        <td>3 months</td>
+                        <td>40000/-</td>
+                    </tr>
+                    <tr align="center">
+                        <td>Flutter</td>
+                        <td>3 months</td>
+                        <td>40000/-</td>
+                    </tr>
+                    <tr align="center">
+                        <td>React</td>
+                        <td>3 months</td>
+                        <td>40000/-</td>
+                    </tr>
+                </table>
+    </div>
+
+    <p id="visit"><a href="https://cybersquare.org/">Visit our website</a>for more informations</p>
+</div> 
+</main>
+
+<footer>
+    <div class="footer">
+        <div class="left">
+        <div><img src="images/cslogo.jpeg" width="250px" height="50px" alt="CyberSquare Logo"></div>
+        <div class="footerpara">Cyber square is an innovative online platform that teaches<br>
+            kids to learn coding and thereby improving the 21st century<br>
+            skills. It is also an excellent way to teach mathematical and<br>
+            science concepts in a different way and have problem-solving<br>
+            skills, logic and patience.</div>
+        </div>
+        
+        <div class="footertable">
+            <table bgcolor="black" width="200px" cellpadding="10" cellspacing="10">
+                <tr>
+                   
+                    <td>Address </td>
+                    <td> Contact Us</td>
+                </tr>
+                <tr>
+                   <td><b>Head Office -UK</b>
+                        <br>
+                        29,The Sphere, 1 Hallsville,
+                        <br>
+                        London E16 1BE
+                    </td>
+                    <td>+44-07448241977 (UK)</td>
+                </tr>
+                <tr>
+                    <td>mail:contact@cybersquare.org
+                    </td>
+                    <td>+971-508881947 (UAE)</td>
+        
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>    
+</footer>
+</body>
+</html>
